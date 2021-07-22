@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<parameter name="UsernamE" value="leelaprakash777@gmail.com"/>
+<parameter name="PassworD" value="123456"/>
+
+<listeners>
+	<listener class-name = "listener.Listeners"/>
+</listeners>
+
+  <test thread-count="5" name="Test">
+  
+ 	 <groups>
+ 		 <run>
+  			<include name = "create"></include>
+  			<include name = "contactus"></include>
+ 		 </run>
+ 	 </groups>
+ 	 
+    <classes>
+      <class name="jun27NG.Login2app"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

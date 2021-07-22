@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="jun27NG.Login2app">
+        <methods>
+          <include name="beforetest"/>
+          <include name="testafter"/>
+          <include name="login0"/>
+          <include name="aftertest"/>
+          <include name="testbefore"/>
+        </methods>
+      </class> <!-- jun27NG.Login2app -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
